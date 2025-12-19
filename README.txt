@@ -165,10 +165,6 @@ Solution: Check file path and ensure file exists
 Issue: Import errors
 Solution: Ensure all Python files are in the same directory
 
-CONTACT & SUPPORT
------------------
-For issues or questions, refer to the project documentation or
-contact the development team.
 
 ================================================================================
                             END OF README
