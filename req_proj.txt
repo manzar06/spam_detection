@@ -1,0 +1,204 @@
+Spam Email Detection System
+
+(Python-Based – Without Machine Learning)
+
+
+---
+
+1️⃣ Project Title
+
+Rule-Based Spam Email Detection System Using Python
+
+
+---
+
+2️⃣ Project Description
+
+Spam emails are unwanted messages that often contain advertisements, fake offers, or malicious links. Instead of using machine learning, this project uses a rule-based and keyword-matching approach to detect spam emails.
+
+The system analyzes the content of an email and checks for:
+
+Spam keywords
+
+Suspicious links
+
+Excessive capital letters
+
+Repeated special characters
+
+
+Based on predefined rules and scores, the email is classified as Spam or Not Spam (Ham).
+
+
+---
+
+3️⃣ Objectives
+
+To detect spam emails without using ML algorithms
+
+To design a lightweight and fast spam filter
+
+To understand text processing in Python
+
+To improve email safety using logical rules
+
+
+
+---
+
+4️⃣ Scope of the Project
+
+Suitable for medium-level Python CSE projects
+
+No need for large datasets or training
+
+Can be extended to:
+
+SMS spam detection
+
+Chat message filtering
+
+Email client integration
+
+
+
+
+---
+
+5️⃣ Technologies Used
+
+Category	Tools
+
+Programming Language	Python
+Libraries	re, string
+Database (Optional)	SQLite
+Interface (Optional)	Tkinter
+IDE	VS Code / PyCharm
+
+
+
+---
+
+6️⃣ System Architecture
+
+1. Email Input
+
+
+2. Text Preprocessing
+
+
+3. Rule Evaluation
+
+
+4. Spam Score Calculation
+
+
+5. Classification Result
+
+
+
+
+---
+
+7️⃣ Module Description
+
+🔹 Module 1: Email Input Module
+
+Accepts email content from:
+
+Text file
+
+User input
+
+GUI form
+
+
+
+
+---
+
+🔹 Module 2: Text Preprocessing Module
+
+Convert text to lowercase
+
+Remove punctuation
+
+Remove extra spaces
+
+Normalize text for analysis
+
+
+
+---
+
+🔹 Module 3: Keyword Matching Module
+
+Predefined spam keywords list:
+
+free, win, offer, prize, click here, urgent, money
+
+Counts number of spam keywords in email
+
+
+
+---
+
+🔹 Module 4: Rule-Based Analysis Module
+
+Rules include:
+
+Presence of suspicious URLs (http, www)
+
+Excessive capital letters
+
+Too many exclamation marks
+
+Repeated spam keywords
+
+
+Each rule adds to a spam score.
+
+
+---
+
+🔹 Module 5: Decision Module
+
+If spam score > threshold → Spam
+
+Else → Not Spam
+
+
+
+---
+
+8️⃣ Algorithm (Step-by-Step)
+
+1. Read email content
+
+
+2. Preprocess text
+
+
+3. Initialize spam score = 0
+
+
+4. Check for spam keywords
+
+
+5. Check for URLs and symbols
+
+
+6. Apply rules and increase score
+
+
+7. Compare score with threshold
+
+
+8. Display result
+
+
+things to consider --
+
+dont use symbols like ai , use font awesome or some other for logo and icons 
+readme report create in simple txt format only not like an ai md 
+dont use the purple gradient for color use some other color combinations 
