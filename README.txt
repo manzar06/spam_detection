@@ -170,15 +170,6 @@ CONTACT & SUPPORT
 For issues or questions, refer to the project documentation or
 contact the development team.
 
-LICENSE
--------
-This project is provided as-is for educational purposes.
-
-VERSION
--------
-Version 1.0
-Last Updated: 2024
-
 ================================================================================
                             END OF README
 ================================================================================
